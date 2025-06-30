@@ -12,7 +12,7 @@ Together, they let you “play the air” like an instrument.
 
 
 
-##Technical Architecture
+
 ### Pitch Control Module
 A Colpitts oscillator, operating around 400 kHz, is implemented using an LM358 op-amp.
 
