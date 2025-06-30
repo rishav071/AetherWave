@@ -1,9 +1,15 @@
 # AetherWave: A Contactless Musical Synthesizer
 
 ## Introduction:
-Imagine making music by just waving your hand in the air, as if you are conjuring melodies from the air itself. That's the magic of the Theremin!. Invented in the 1920s, this electronic marvel produces ethereal sounds without sounds.
+AetherWave is based on the principle that the human body introduces variable capacitance when in proximity to an electromagnetic field. By tracking these changes, the circuit modulates audio signals in real time.
 
-The theremin operates through capacitance sensing and frequency mixing, comprising of pitch and volume circuits. The pitch and amplitude oscillator emit continuous electromagnetic fields altering the frequency and amplitude as the player's hand near the pitch antenna, generating higher pitches closer and lower ones farther away, the amplitude also changes depending on the distance of the player's hand from the amplitude antenna by taking advantage of the parasitic capacitance of the human body.
+Pitch is controlled by how far your hand is from one antenna.
+
+Volume is shaped by your hand’s position relative to a second antenna.
+
+Together, they let you “play the air” like an instrument.
+
+
 
 
 ## Methodology:
