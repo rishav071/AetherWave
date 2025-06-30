@@ -13,7 +13,7 @@ Together, they let you “play the air” like an instrument.
 
 
 
-### Pitch Control Module
+## Pitch Control Module
 A Colpitts oscillator, operating around 400 kHz, is implemented using an LM358 op-amp.
 
 The oscillator circuit includes an antenna that functions as one capacitor plate, with the player’s hand acting as the opposing plate.
@@ -26,7 +26,7 @@ The mixing process creates two components — one at the sum and one at the diff
 
 A low-pass filter isolates the difference frequency, yielding a signal in the audible frequency range (<20 kHz) that becomes the musical pitch.
 
-### Volume Control Module
+## Volume Control Module
 A mirrored sensing setup detects hand movement near a second antenna to modulate volume.
 
 This signal is processed through a Sallen-Key low-pass filter (2nd order Butterworth), configured with a sharp transition zone.
